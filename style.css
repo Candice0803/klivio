@@ -1,7 +1,198 @@
-header {
-    background-color : dark blue;
+
+body {
+    margin:0;
+    padding:0;
+}
+.burger {
+    font-size: 22px;
+}
+
+ header{
+    background-color: #152237;
+    color: #fff;
+    justify-content: space-between;
+    position: sticky;
+    width: 393px;
+    Height: 80px;
+} 
+.logo {
+    width: 84px;
+    height: 31px;
+    top: 25px;
+    left: 27px;
 
 }
-title {
+
+
+
+.hero {
+    height:362px;
+    width:393px;
+    top: 80px;
+    border: 3px solid blue;
+    background-image:url(images/hero.png);
+    /* linear-gradient(#44DD8A 50%, #15B7E2 50%); */
+    text-align : middle center;
+
+}
+.hero-content {
+    width:393px;
+    height: 362px;
+    top: -80px;
     
+}
+.first sentence {
+    width: 360px;
+    height: 117px;
+    top: 45px;
+    left: 16px;
+    font-family: Montserrat; 
+   font-weight: 800px;/*Extrabold*/
+     font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -1,5%;
+    text-align: center;
+    align-items: middle;
+    text-transform: uppercase;
+    color: #152237;
+
+}
+.second sentence {
+    width: 360px;
+    height: 72px;
+    top: 189px;
+    left: 16px;
+    font-family: Montserrat;
+    font-weight: 500;/*Medium*/
+    size: 20px;
+    line-height: 100%;
+    letter-spacing:-1,5%;
+   text-align: center;
+    align-items: middle;
+    text-transform: uppercase;
+}
+.know more {
+    width: 130px;
+    height: 40px;
+    top: 288px;
+    left: 131px;
+    border-radius: 6px;
+    color: #ffffff;
+}
+.titre-formation {
+    width: 335px;
+    height: 80px;
+    top: 20px;
+    left: 28px;
+    font-family: montserrat;
+   font-weight: 800;/*Extrabold*/
+    size: 30px;
+    line-height: 40px;
+    letter-spacing: -1,5%;
+    align-items: center;
+    justify-content: center;
+}
+
+   
+
+
+.formation-card {
+    width: 305px;
+    height: 206px;
+    top: 136px;
+    left: 45px;
+
+}
+.titre-formations {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left;
+
+}
+.button {
+    width: 172px;
+    height: 18px;
+    top: 11px;
+    left:-21px;
+    font-family: Montserrat;
+   font-weight: 500;
+    size: 15px;
+    line-height: 100%;
+    letter-spacing: -1,5%;
+    align-items: center;
+    justify-content: middle;
+    color: #ffffff;
+    background-color: #152237;
+}
+.stars {
+    color: #FFC700;
+}
+.star-none {
+    color: light gray;
+}
+.formation-container {
+    background-color:#152237;
+}
+.Camille-img {
+    border-radius:50%;
+}
+.Juliette-img {
+    border-radius:50%;
+}
+.advantages-image {
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+.formations-container2 {
+    background-color: #44DD8A;
+    width: 393px;
+    height: 1,020px;
+    top: 5959px;
+}
+.working-img {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+}
+.text-create {
+    width:366px;
+    height:79px;
+    position: absolute;
+    top:27px;
+    left:13px;
+    font-family: Montserrat;
+    text-align: center;
+    text-transform: uppercase;
+    color: #152237
+    
+}
+.klivio-image {
+    width: 393px;
+    height:370px;
+    top: 667px;
+    background-color: #152237;
+}
+
+.article {
+    background-color: #152237;
+    width: 393pc;
+    height: 555px;
+    top: 8532px;
+
+}
+.contact info {
+    width:393px;
+    height:9,087px;
+    background-color: #152237;
+}
+.footer.png {
+    width: 243px;
+    height: 87px;
+    top: 63px;
+    left: 75px;
+}
+.final logo {
+    background-color: #152237;
 }
